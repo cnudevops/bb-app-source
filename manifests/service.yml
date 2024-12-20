@@ -11,10 +11,14 @@ spec:
     protocol: TCP
     targetPort: 80
 <<<<<<< HEAD
+<<<<<<< HEAD
     nodePort: 30001
 =======
     nodePort: 30008
 >>>>>>> fe95025 (Update service.yml)
+=======
+    nodePort: 30008
+>>>>>>> remotes/origin/8-demo
   selector:
     app: block-buster
     version: 7.8.x
